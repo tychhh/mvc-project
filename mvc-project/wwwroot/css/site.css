@@ -29,3 +29,18 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.profile-box {
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 0.5%;
+}
+
+.profile-background {
+    width: 60%;
+    aspect-ratio: 27 / 9;
+    object-fit: cover;
+    object-position: center;
+}
